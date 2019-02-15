@@ -1,7 +1,5 @@
 # Election Analysis
 
-****************************************************************************************
-
 ## Objective
 
 To analyse elections data & display it on the dashboard
