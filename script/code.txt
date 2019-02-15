@@ -1,0 +1,20 @@
+
+Problem Statements:
+
+1) To find the gender of the winning candidate & also to display the name of the district to which the candidate won?
+
+2) To find the winning party in each district from the dataset?
+
+3) To display the winning party whose voting percentage gets out to be more than 60%?
+
+4) To display the winning margin of runner up party and winning party & display the name of winning & runner up parties?
+
+Solution:
+
+select gender, district_name, count(*) from election group by gender, district_name; 
+
+select winning_party, district_name from election group by winning_party, district_name;
+
+select winning_party,count(*) from election where voting_turnout_perc > '60%' group by winning_party;
+
+select winning_party, runner_up_party, (winner_votes - runner_up_votes) as wining_margin  from election;
