@@ -70,16 +70,14 @@ Problem Statement 4: To display the winning margin of runner up party and winnin
 
 ## Case 2: To find the winning party in each district from the dataset?
 
-![alt text](images/image4.png)
-
 ## Case 3: To display the winning party whose voting percentage gets out to be more than 60%?
 
 ## Case 4: To display the winning margin of runner up party and winning party & display the name of winning & runner up parties?
 
-![alt text](images/image5.png)
+![alt text](images/image4.png)
 
 
 ** DASHBOARD **
 *****************
 
-![alt text](images/image6.png)
+![alt text](images/image5.png)
